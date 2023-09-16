@@ -1,0 +1,19 @@
+1. document.getElementById('container')
+2. document.querySelector('#container')
+3. document.querySelectorAll('.second')
+4. document.querySelector('ul .third')
+5. const text = document.querySelector('#container')
+text.textContent = 'Hello' (or .innerText)
+6. const divFoot = document.querySelector('.footer')
+divFoot.classList += 'main'
+7. divFoot.remove('main')
+8. let newLi = document.createElement('li')
+9. newLi.innerText = 'four'
+10. let ulList = document.querySelector('ul')
+ulList.append(newLi)
+11. const ol = document.querySelectorAll('ol li')
+for(let ols of ol){
+    ols.style.backgroundColor = 'green'
+}
+12. const divFoot = document.querySelector('.footer')
+divFoot.remove();
